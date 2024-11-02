@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Traveler's Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Time Traveler's Diary</h1>
+        
+        <!-- Date Picker -->
+        <input type="date" id="dateInput">
+        <button onclick="fetchEvent()">Explore</button>
+        
+        <!-- Display Event -->
+        <div id="eventDisplay"></div>
+
+        <!-- Personal Progress Tracker -->
+        <h2>Your Goals</h2>
+        <input type="text" id="goalInput" placeholder="Enter a goal...">
+        <button onclick="addGoal()">Add Goal</button>
+        <ul id="goalList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f3f0e3;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    background: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#eventDisplay, #goalList {
+    margin-top: 20px;
+    text-align: left;
+}
